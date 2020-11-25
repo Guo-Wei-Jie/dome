@@ -3,6 +3,8 @@ package com.kgc.spring.demo01.bean;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
+import java.util.Date;
+
 
 public class User {
 
@@ -10,6 +12,7 @@ public class User {
     private  int Id;
 
     private  String name;
+    private Date time;
 
 
     public int getId() {
