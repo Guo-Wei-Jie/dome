@@ -13,6 +13,7 @@ public class User {
 
     private  String name;
     private Date time;
+    private  int age;
 
 
     public int getId() {
