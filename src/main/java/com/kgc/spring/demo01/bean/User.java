@@ -15,6 +15,10 @@ public class User {
     private Date time;
     private  int age;
 
+    private  String address;
+
+    private  String sex;
+
 
     public int getId() {
         return Id;
